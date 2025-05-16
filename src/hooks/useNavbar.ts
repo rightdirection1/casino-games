@@ -8,7 +8,8 @@ export const useNavbar = () => {
   };
 
   const currentLangLabel = lang === "en" ? "EN" : "BG";
-  const brandTitle = translations?.brandName || "Casino Games";
+  const brandTitle =
+    translations?.brandTitle || translations?.footer_brand || "Casino Games";
 
   return {
     lang,
