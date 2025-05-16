@@ -3,25 +3,39 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
     "build": "next build",
-    "start": "next start",
+    "start": "npx serve out",
+    "dev": "next dev",
     "lint": "next lint"
   },
   "dependencies": {
-    "react": "^19.0.0",
+    "i18next": "^25.1.2",
+    "next": "15.3.2",
+    "next-i18next": "^15.4.2",
+    "paginate": "^0.2.0",
+    "react": "^19.1.0",
     "react-dom": "^19.0.0",
-    "next": "15.3.2"
+    "react-infinite-scroll-component": "^6.1.0",
+    "react-paginate": "^8.3.0",
+    "react-virtualized-auto-sizer": "^1.0.26",
+    "react-window": "^1.8.11"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^14.6.1",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
-    "eslint": "^9",
+    "@types/react-paginate": "^7.1.4",
+    "eslint": "^9.26.0",
     "eslint-config-next": "15.3.2",
-    "@eslint/eslintrc": "^3"
+    "jest": "^29.7.0",
+    "next-translate-plugin": "^2.6.2",
+    "prettier": "^3.5.3",
+    "tailwindcss": "^4",
+    "typescript": "^5"
   }
 }
