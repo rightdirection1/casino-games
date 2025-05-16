@@ -7,7 +7,7 @@ export const useNavbar = () => {
     changeLanguage(lang === "en" ? "bg" : "en");
   };
 
-  const currentLangLabel = lang === "en" ? "English" : "Български";
+  const currentLangLabel = lang === "en" ? "EN" : "BG";
   const brandTitle = translations?.brandName || "Casino Games";
 
   return {

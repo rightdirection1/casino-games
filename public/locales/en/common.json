@@ -1,20 +1,8 @@
 {
-  "greeting": "Hola",
-  "title": "Casino Games",
-  "load_more": "Load More",
-  "no_games": "No games available",
-  "error_fetching": "Failed to fetch games",
-  "brandName": "Casino Games",
-  "footerDescription": "Enjoy top slot games from your favorite providers.",
-  "quickLinks": "Quick Links",
-  "home": "Home",
-  "privacyPolicy": "Privacy Policy",
-  "terms": "Terms of Service",
-  "followUs": "Follow Us",
-  "allRightsReserved": "All rights reserved.",
-  "english": "English",
-  "bulgarian": "Български",
-  "aboutUs": "About Us",
-  "services": "Services",
-  "contact": "Contact"
+  "title": "Slots Games",
+  "no_games": "No games available.",
+  "load_more": "Loading games...",
+  "error_fetching": "Failed to fetch games.",
+  "footer_brand": "Casino Games",
+  "footer_copyright": "All rights reserved."
 }

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <circle cx="32" cy="32" r="30" fill="#22223b" stroke="#f2e9e4" stroke-width="4"/>
+  <ellipse cx="32" cy="44" rx="18" ry="8" fill="#f2e9e4"/>
+  <rect x="16" y="20" width="32" height="20" rx="6" fill="#c9ada7" stroke="#9a8c98" stroke-width="2"/>
+  <rect x="22" y="26" width="20" height="8" rx="2" fill="#22223b"/>
+  <circle cx="24" cy="30" r="2" fill="#f2e9e4"/>
+  <circle cx="32" cy="30" r="2" fill="#f2e9e4"/>
+  <circle cx="40" cy="30" r="2" fill="#f2e9e4"/>
+  <rect x="28" y="12" width="8" height="8" rx="2" fill="#f2e9e4" stroke="#9a8c98" stroke-width="2"/>
+  <rect x="30" y="8" width="4" height="6" rx="1" fill="#c9ada7"/>
+  <text x="32" y="58" text-anchor="middle" font-size="10" fill="#f2e9e4" font-family="Arial" font-weight="bold">CASINO</text>
+</svg>
