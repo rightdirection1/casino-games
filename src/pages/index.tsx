@@ -2,9 +2,12 @@ import dynamic from "next/dynamic";
 import { useSlotsGames } from "@/hooks/useSlotsGames";
 import { useLanguage } from "../context/LanguageCtx";
 
-const ResponsiveVirtualGrid = dynamic(() => import("../components/GameGrid"), {
-  ssr: false,
-});
+const ResponsiveVirtualGrid = dynamic(
+  () => import("../components/Game/GameGrid"),
+  {
+    ssr: false,
+  }
+);
 
 export default function Home() {
   const { lang } = useLanguage();

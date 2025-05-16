@@ -1,4 +1,4 @@
-import { Game } from "../interfaces/Game";
+import { Game } from "../../interfaces/Game";
 import GameMedia from "./GameMultimedia";
 
 export default function GameCard({ game }: { game: Game }) {

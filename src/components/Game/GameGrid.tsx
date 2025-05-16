@@ -3,7 +3,7 @@ import { FixedSizeGrid as Grid } from "react-window";
 import AutoSizer from "react-virtualized-auto-sizer";
 import GameCard from "./GameCard";
 import GameSkeleton from "./GameSkeleton";
-import { Game } from "../interfaces/Game";
+import { Game } from "../../interfaces/Game";
 
 type Props = {
   games: Game[];

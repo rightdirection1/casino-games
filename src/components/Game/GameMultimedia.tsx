@@ -1,6 +1,6 @@
 "use client";
 
-import { Game } from "../interfaces/Game";
+import { Game } from "../../interfaces/Game";
 import GameImage from "./GameImage";
 import GameVideo from "./GameVideo";
 import { BASE_URL } from "@/constants/baseURL";
